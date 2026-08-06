@@ -7,7 +7,7 @@ Private coordination and knowledge repository for the FOLK Surat student-growth 
 1. Read [`CLAUDE.md`](CLAUDE.md) or [`AGENTS.md`](AGENTS.md).
 2. Read [`docs/CURRENT_STATUS.md`](docs/CURRENT_STATUS.md).
 3. Choose work from [`planning/backlog.yaml`](planning/backlog.yaml).
-4. Confirm the approval boundary in [`docs/SECURITY_AND_PRIVACY.md`](docs/SECURITY_AND_PRIVACY.md).
+4. Confirm the approval boundary in [`docs/ROLES_APPROVALS_SECURITY.md`](docs/ROLES_APPROVALS_SECURITY.md).
 
 ## Related repositories
 
@@ -22,4 +22,3 @@ Do not merge into `main`, deploy publicly, contact real students, use production
 ## Knowledge corpus
 
 `knowledge-base/prabhupada-corpus/` contains a sanitized working copy of the curated Markdown corpus. The original D-drive archive remains authoritative and must never be modified by this repository.
-
