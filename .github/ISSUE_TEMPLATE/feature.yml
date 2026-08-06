@@ -1,0 +1,26 @@
+name: Feature
+description: Implement a scoped FOLK Surat capability
+title: "[Feature]: "
+body:
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety boundary
+      options:
+        - label: Uses only test data and test services
+          required: true
+        - label: Does not merge to main or deploy publicly
+          required: true
+

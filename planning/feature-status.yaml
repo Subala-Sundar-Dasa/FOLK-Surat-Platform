@@ -1,0 +1,21 @@
+student_app:
+  existing_sadhana: preserve_and_improve
+  google_auth: in_progress
+  abcde_experience: pending
+guide_app:
+  existing_monitoring: preserve_and_improve
+  google_auth: pending_validation
+  crm_action_queue: pending
+web_crm:
+  foundation_pr: open_draft
+  quarterly_dashboard: pending
+backend:
+  provider: supabase
+  rls: partial_needs_full_validation
+knowledge:
+  corpus_copy: prepared_for_repository
+  retrieval_index: pending
+integrations:
+  trello: designed_not_implemented
+  notifications: designed_not_implemented
+

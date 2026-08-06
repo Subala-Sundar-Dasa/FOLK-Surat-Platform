@@ -1,0 +1,83 @@
+version: 1
+updated: 2026-08-06
+approval_boundary: private_test_only
+epics:
+  - id: AUTH
+    priority: P0
+    items:
+      - id: AUTH-1
+        status: in_progress
+        title: Complete student Google OAuth callback on test device
+      - id: AUTH-2
+        status: pending
+        title: Complete guide Google OAuth and role resolution
+  - id: CORE
+    priority: P0
+    items:
+      - id: CORE-1
+        status: pending
+        title: Prove synthetic student sadhana to assigned-guide visibility
+      - id: CORE-2
+        status: pending
+        title: Version schema migrations and complete RLS matrix
+      - id: CORE-3
+        status: pending
+        title: Add synthetic fixtures covering cohorts and progress states
+  - id: CRM
+    priority: P1
+    items:
+      - id: CRM-1
+        status: pending
+        title: Student profile timeline and actionable guide queue
+      - id: CRM-2
+        status: pending
+        title: Natural-language interaction summary and missing-field prompts
+      - id: CRM-3
+        status: pending
+        title: LIT versioning, 125-coordinate strategy, evidence and confidence
+      - id: CRM-4
+        status: pending
+        title: ABCDE progress and quarterly target dashboard
+  - id: PLANNING
+    priority: P1
+    items:
+      - id: PLAN-1
+        status: pending
+        title: College calendars, availability windows and adaptive weekly targets
+      - id: PLAN-2
+        status: pending
+        title: Monday guide milestone dashboard
+      - id: PLAN-3
+        status: pending
+        title: Reminder scheduler, birthdays and notification fatigue controls
+      - id: PLAN-4
+        status: pending
+        title: Trello projection with safe card payloads
+  - id: EXPERIENCE
+    priority: P2
+    items:
+      - id: EXP-1
+        status: pending
+        title: ABCDE student home and embedded reading/hearing
+      - id: EXP-2
+        status: pending
+        title: Chanting counter and streamed Prabhupada pace reference
+      - id: EXP-3
+        status: pending
+        title: Mentor appointment request workflow
+      - id: EXP-4
+        status: pending
+        title: RDUA, trips, competitions and service opportunity modules
+  - id: RAG
+    priority: P1
+    items:
+      - id: RAG-1
+        status: pending
+        title: Generate corpus checksums and normalized metadata manifest
+      - id: RAG-2
+        status: pending
+        title: Build private retrieval index with citation contract
+      - id: RAG-3
+        status: pending
+        title: Guide-facing and student-facing grounded guidance flows
+
